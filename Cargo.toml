@@ -1,0 +1,31 @@
+[package]
+name = "uiota-ontogenetic-intelligence"
+version = "1.0.0"
+description = "UIOTA Ontogenetic Intelligence - Air-gapped OS implementation"
+authors = ["UIOTA Research <research@uiota.space>"]
+license = "MIT"
+edition = "2021"
+keywords = ["ontogenetic", "air-gap", "zero-trust", "mini-os"]
+
+[dependencies]
+# Core (Air-gap only)
+tokio = { version = "1.32", features = ["rt-multi-thread", "fs", "io-util"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Cryptography (Zero-trust)
+ed25519-dalek = "2.0"
+sha2 = "0.10"
+rand = "0.8"
+
+# Mini OS Integration
+sqlx = { version = "0.7", features = ["runtime-tokio-rustls", "sqlite"] }
+
+[features]
+default = ["air-gap", "zero-trust"]
+air-gap = []
+zero-trust = []
+
+[package.metadata.air-gap]
+telemetry = false
+external-requests = false

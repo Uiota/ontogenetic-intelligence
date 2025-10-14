@@ -105,8 +105,10 @@ Network dependent         Deferred sync, Air-gapped
 ontogenetic-intelligence/
 ├── README.md                    # This file
 ├── LICENSE                     # MIT License
-├── requirements.txt            # Python dependencies
+├── requirements.txt            # Complete Python dependencies
 ├── package.json               # Node.js dependencies
+├── Cargo.toml                  # Rust dependencies
+├── go.mod                      # Go dependencies
 │
 ├── src/                       # Core Python implementation
 │   ├── ogi_agent.py          # Main OGI agent class
@@ -260,12 +262,40 @@ If you use this work in your research, please cite:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 🖥️ UIOTA Mini OS Development
+
+### **OGI-Powered Operating System**
+The Ontogenetic Intelligence Framework is being integrated into **UIOTA Mini OS** - the first operating system with built-in ontogenetic capabilities.
+
+#### **Key Features:**
+- **Self-Modifying Architecture**: OS evolves using OGI algorithms
+- **Integrated Dashboard**: Live OGI visualization and system monitoring
+- **Air-Gapped Development**: Complete sovereign computing environment
+- **Alpine Linux Foundation**: Security-hardened, minimal base system
+- **Zero Telemetry**: Complete privacy and air-gap compliance
+
+#### **Development Timeline:**
+- **Phase 1 (4 weeks)**: OGI-powered Mini OS v1.0
+- **Phase 2 (parallel)**: Enhanced dashboard and framework expansion
+- **Phase 3 (6-8 months)**: Custom ontogenetic OS beta with dashboard control
+
+#### **Technical Specifications:**
+- **Size**: <800MB ISO with complete development environment
+- **Hardware**: AMD/RISC-V systems (Intel ME-free)
+- **Languages**: Python, Rust, Go, Node.js with VS Codium
+- **Features**: Real-time system adaptation, federated learning APIs
+- **Security**: Quantum-resistant cryptography, zero-trust architecture
+
+**📋 Roadmap**: [Mini OS Development Plan](docs/MINI_OS_ROADMAP.md)
+
+---
+
 ## 🔗 Links
 
 - **Research Group**: [Uniqstic IoT & Space](https://uiota.space)
-- **Medium Article**: [Beyond BabyAGI: How Ontogenetic Intelligence Solves AI's Identity Crisis](https://medium.com/@yourusername/beyond-babyagi-ogi)
-- **Interactive Demo**: [Live Simulation Dashboard](https://ogi-demo.uiota.space)
+- **Interactive Demo**: [Live OGI Dashboard](https://uiota.github.io/ontogenetic-intelligence)
 - **LinkedIn**: [Michael Gibson](https://www.linkedin.com/in/michael-gibson-216641244/)
+- **Mini OS**: [Development Roadmap](docs/MINI_OS_ROADMAP.md)
 
 ## 🙏 Acknowledgments
 

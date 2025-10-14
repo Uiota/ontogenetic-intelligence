@@ -1,40 +1,38 @@
-# Core scientific computing
-numpy>=1.21.0
-pandas>=1.3.0
-matplotlib>=3.4.0
-seaborn>=0.11.0
+# UIOTA Ontogenetic Intelligence - Air-Gap Dependencies Only
+# Zero-trust, air-gapped, ontogenetic OS implementation
 
-# Machine learning and AI
-scikit-learn>=1.0.0
-scipy>=1.7.0
+# Core Scientific Computing (Offline builds)
+numpy==1.24.3
+pandas==2.1.0
+matplotlib==3.7.2
+scipy==1.11.1
 
-# Data visualization
-plotly>=5.0.0
-ipywidgets>=7.6.0
+# Machine Learning (CPU-only, no telemetry)
+scikit-learn==1.3.0
+torch==2.1.0+cpu
 
-# Development and testing
-pytest>=6.2.0
-pytest-cov>=2.12.0
-black>=21.6.0
-flake8>=3.9.0
+# Ontogenetic Framework
+fastapi==0.103.0
+uvicorn==0.23.2
+pydantic==2.3.0
 
-# Jupyter notebook support
-jupyter>=1.0.0
-ipykernel>=6.0.0
+# Cryptography (Quantum-resistant)
+cryptography==41.0.3
+pycryptodome==3.18.0
+pynacl==1.5.0
 
-# Additional utilities
-tqdm>=4.61.0
-click>=8.0.0
-pyyaml>=5.4.0
-python-dateutil>=2.8.0
+# Air-Gap Utilities
+jupyter==1.0.0
+jupyterlab==4.0.5
+click==8.1.6
+pyyaml==6.0.1
+tqdm==4.65.0
 
-# Optional: For advanced cryptographic features
-cryptography>=3.4.0
+# Zero-Trust Development
+pytest==7.4.0
+black==23.7.0
+flake8==6.0.0
 
-# Optional: For web interface integration
-flask>=2.0.0
-flask-cors>=3.0.0
-
-# Social media API integration
-python-dotenv>=0.19.0
-requests>=2.25.0
+# Mini OS Integration
+psutil==5.9.5
+netifaces==0.11.0
