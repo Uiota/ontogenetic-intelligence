@@ -34,6 +34,10 @@ python src/analysis.py
 
 ### Interactive Web Dashboard
 
+**🌐 Live Demo:** [https://Uiota.github.io/ontogenetic-intelligence](https://Uiota.github.io/ontogenetic-intelligence)
+
+Try the interactive simulation online, or run locally:
+
 ```bash
 # Navigate to web interface
 cd web-interface
