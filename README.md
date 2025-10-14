@@ -19,7 +19,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ontogenetic-intelligence.git
+git clone https://github.com/Uiota/ontogenetic-intelligence.git
 cd ontogenetic-intelligence
 
 # Install dependencies
@@ -248,7 +248,7 @@ If you use this work in your research, please cite:
   author={Gibson, Michael},
   journal={arXiv preprint},
   year={2024},
-  url={https://github.com/yourusername/ontogenetic-intelligence}
+  url={https://github.com/Uiota/ontogenetic-intelligence}
 }
 ```
 
@@ -261,7 +261,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Research Group**: [Uniqstic IoT & Space](https://uiota.space)
 - **Medium Article**: [Beyond BabyAGI: How Ontogenetic Intelligence Solves AI's Identity Crisis](https://medium.com/@yourusername/beyond-babyagi-ogi)
 - **Interactive Demo**: [Live Simulation Dashboard](https://ogi-demo.uiota.space)
-- **LinkedIn**: [Michael Gibson](https://www.linkedin.com/in/michael-gibson-uiota)
+- **LinkedIn**: [Michael Gibson](https://www.linkedin.com/in/michael-gibson-216641244/)
 
 ## 🙏 Acknowledgments
 
