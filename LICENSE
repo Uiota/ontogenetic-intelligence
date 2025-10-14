@@ -1,0 +1,50 @@
+MIT License
+
+Copyright (c) 2024 Michael Gibson / Uniqstic Research Group
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Attribution
+
+This work builds upon and references:
+
+- BabyAGI by Yohei Nakajima (https://github.com/yoheinakajima/babyagi)
+- Federated Learning research by McMahan et al. (2017)
+- Evolutionary computing principles by Holland, Goldberg, et al.
+- Ontogenetic development theory from developmental biology
+
+If you use this work in research or commercial applications, please cite:
+
+```
+Gibson, M. (2024). Beyond BabyAGI: Ontogenetic Generative Intelligence for
+Self-Developing Machines. Uniqstic Research Group.
+```
+
+## Commercial Use
+
+This framework is released under MIT license for both academic and commercial use.
+For enterprise implementations or support, contact: michael@uiota.space
+
+## Research Attribution
+
+The OGI (Ontogenetic Generative Intelligence) framework was developed by:
+- Michael Gibson, Uniqstic Research Group / UIOTA.Space
+- SSC Registry ID: UIOTAS-SSC-001
